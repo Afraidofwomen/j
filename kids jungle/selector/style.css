@@ -1,0 +1,41 @@
+*{
+    position: relative;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-image: url(../img/5371964.jpg);
+    background-size: cover;
+}
+.header {
+    margin-top: 20px;
+}
+.container {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 30%;
+    background-image: url(../img/bush.png) ;
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifs;
+}
+.main {
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.bloque{
+    top: 300px;
+}
